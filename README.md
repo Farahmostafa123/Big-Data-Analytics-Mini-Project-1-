@@ -17,7 +17,7 @@ hadoop --> book1.txt:12, book3.txt:5
 - `run_reverse_index.sh` → Driver/execution script
 - `stopwords.txt` → Stop-word list
 - `README.md` → Instructions
-- `Performance_Report.pdf` → Final report
+- `Big Data Analytics Mini Project 1 Report.pdf` → Final report
 
 
 ## Preprocessing Implemented
