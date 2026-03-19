@@ -43,9 +43,12 @@ The mapper performs:
 ```bash
 hdfs dfs -mkdir -p /user/hduser/library
 hdfs dfs -put -f /shared/book_*.txt /user/hduser/library/
-
-###Step 2
+```
+### Step 2: Run the driver script
+```bash
 ./run_reverse_index.sh /user/hduser/reverse_index_output
-
-###Step 3
+```
+### Step 3: View output
+```bash
 hdfs dfs -cat /user/hduser/reverse_index_output/part-* | head -20
+```
